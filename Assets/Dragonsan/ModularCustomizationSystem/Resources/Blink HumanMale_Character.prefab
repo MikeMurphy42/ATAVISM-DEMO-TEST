@@ -1,0 +1,520 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3650414853030024169
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3756727896583629466, guid: bf1bfac2f1f52124a88eae02354cea04, type: 3}
+      propertyPath: m_Name
+      value: HumanMale_Character
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756727896583629467, guid: bf1bfac2f1f52124a88eae02354cea04, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 3443a9693cfcd8a4fbd4cbbee065454d, type: 3}
+    - target: {fileID: 3756727896583629467, guid: bf1bfac2f1f52124a88eae02354cea04, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d66b19d0facdb5249a68c03016f4e477, type: 2}
+    - target: {fileID: 3756727896583629467, guid: bf1bfac2f1f52124a88eae02354cea04, type: 3}
+      propertyPath: m_UpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756727896583629467, guid: bf1bfac2f1f52124a88eae02354cea04, type: 3}
+      propertyPath: m_CullingMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756727896583629468, guid: bf1bfac2f1f52124a88eae02354cea04, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756727896583629468, guid: bf1bfac2f1f52124a88eae02354cea04, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756727896583629468, guid: bf1bfac2f1f52124a88eae02354cea04, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756727896583629468, guid: bf1bfac2f1f52124a88eae02354cea04, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756727896583629468, guid: bf1bfac2f1f52124a88eae02354cea04, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756727896583629468, guid: bf1bfac2f1f52124a88eae02354cea04, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756727896583629468, guid: bf1bfac2f1f52124a88eae02354cea04, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756727896583629468, guid: bf1bfac2f1f52124a88eae02354cea04, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756727896583629468, guid: bf1bfac2f1f52124a88eae02354cea04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756727896583629468, guid: bf1bfac2f1f52124a88eae02354cea04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756727896583629468, guid: bf1bfac2f1f52124a88eae02354cea04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bf1bfac2f1f52124a88eae02354cea04, type: 3}
+--- !u!1 &471317658915109235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3756727896583629466, guid: bf1bfac2f1f52124a88eae02354cea04, type: 3}
+  m_PrefabInstance: {fileID: 3650414853030024169}
+  m_PrefabAsset: {fileID: 0}
+--- !u!143 &1165515495684417637
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471317658915109235}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 1.85
+  m_Radius: 0.2
+  m_SlopeLimit: 60
+  m_StepOffset: 0.6
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0
+  m_Center: {x: 0, y: 0.9, z: 0}
+--- !u!114 &2139031921029741009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471317658915109235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d1952ce2332d4a49b5750b24ec3da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPlayer: 0
+  groundLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  nameHeight: 2
+  runThreshold: 2.5
+  combatSpeed: 0.8
+  jumpHeight: 1.5
+  slideWhenOverSlopeLimit: 1
+  friendlyTargetDecal: {fileID: 100000, guid: 39835da23d27f714bbc99f57b90971e7, type: 3}
+  neutralTargetDecal: {fileID: 100000, guid: 5cfab231cdab9ad4199b8bc2c0f4ee1e, type: 3}
+  enemyTargetDecal: {fileID: 100000, guid: 91a0e2ab10736de449b24d64c1f76dc8, type: 3}
+  checkUnderGround: 1
+  groundDistanceLayer:
+    serializedVersion: 2
+    m_Bits: 1
+  maxGroundDistance: 20
+  colliderRadius: 0
+  colliderHeight: 0
+  colliderCenter: {x: 0, y: 0, z: 0}
+  RayCastUpdateSeconds: 0.1
+  alignSurface: 1
+  characterNoMove: 0
+--- !u!114 &2159727364448702069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471317658915109235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67d77b6c0bea17443abcb0a6be210b47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 0
+--- !u!114 &5239601303170697162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471317658915109235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f636e37fb2411441a589e092d074398, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  responseSound: []
+  responseSoundFemale: []
+  deathSound: []
+  deathSoundFemale: []
+  aggroSound: []
+  aggroSoundFemale: []
+  attackSound: []
+  attackSoundFemale: []
+  jumpSound: []
+  jumpSoundFemale: []
+  responseSoundName: []
+  responseSoundFemaleName: []
+  deathSoundName: []
+  deathSoundFemaleName: []
+  aggroSoundName: []
+  aggroSoundFemaleName: []
+  attackSoundName: []
+  attackSoundFemaleName: []
+  jumpSoundName: []
+  jumpSoundFemaleName: []
+  mixerGroupName: SFX
+  maxDistance: 100
+--- !u!114 &5349250196563387895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471317658915109235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3688f4f9cf958f94fae720536377b926, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  height: 2
+  textfield: 
+  textheight: 0
+  renderDistance: 50
+  minFontSize: 1
+  maxFontSize: 5
+  nameOnSelf: 0
+--- !u!114 &6159695694369401018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471317658915109235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08534967bdf88fe40be74e7765eef60c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portraitIcon: {fileID: 0}
+  mobprefabName: ModularCharactersHNG
+  mainHand: {fileID: 0}
+  mainHand2: {fileID: 0}
+  offHand: {fileID: 0}
+  offHand2: {fileID: 0}
+  mainHandRest: {fileID: 0}
+  mainHandRest2: {fileID: 0}
+  offHandRest: {fileID: 0}
+  offHandRest2: {fileID: 0}
+  shield: {fileID: 0}
+  shield2: {fileID: 0}
+  shieldRest: {fileID: 0}
+  shieldRest2: {fileID: 0}
+  head: {fileID: 0}
+  leftShoulderSocket: {fileID: 0}
+  rightShoulderSocket: {fileID: 0}
+  rootSocket: {fileID: 0}
+  leftFootSocket: {fileID: 0}
+  rightFootSocket: {fileID: 0}
+  pelvisSocket: {fileID: 0}
+  leftHipSocket: {fileID: 0}
+  rightHipSocket: {fileID: 0}
+  chestSocket: {fileID: 0}
+  backSocket: {fileID: 0}
+  neckSocket: {fileID: 0}
+  mouthSocket: {fileID: 0}
+  leftEyeSocket: {fileID: 0}
+  rightEyeSocket: {fileID: 0}
+  overheadSocket: {fileID: 0}
+  slots:
+  - Main Hand
+  - Off Hand
+  - Head
+  - Chest
+  - Legs
+  - Feet
+  - Shoulder
+  modularsockets: []
+  sockets:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  restsockets:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  combatCloseDelay: 0.5
+  gender: 0
+  race: -1
+  aspect: -1
+  displayVal: 
+  unsheatheAllWeaponsNotDefaultRestOnEnterInCombat: 1
+  node: {fileID: 0}
+--- !u!114 &8057379828868228674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471317658915109235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3277f9e3a33ce6b47830763a925ce259, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentTab: Materials
+  toolbarTop: 99
+  toolbarMiddle: 99
+  toolbarBottom: 1
+  toolbarSubBottom: 99
+  gender: 0
+  replacementObject: {fileID: 0}
+  headReplacementObject: {fileID: 0}
+  torsoReplacementObject: {fileID: 0}
+  upperArmsReplacementObject: {fileID: 0}
+  lowerArmsReplacementObject: {fileID: 0}
+  hipsReplacementObject: {fileID: 0}
+  lowerLegsReplacementObject: {fileID: 0}
+  feetReplacementObject: {fileID: 0}
+  handsReplacementObject: {fileID: 0}
+  modularModelSwapping: 0
+  nHanceModelSwapping: 0
+  defaultTorso: {fileID: 0}
+  defaultHands: {fileID: 0}
+  defaultFeet: {fileID: 0}
+  defaultLegs: {fileID: 0}
+  bodyMat: {fileID: 2100000, guid: f76bfb0a467648a46a0d73dc55340dc4, type: 2}
+  headMat: {fileID: 0}
+  hairMat: {fileID: 2100000, guid: bca4dd4cf1f647c4b9f5e4c2754105c2, type: 2}
+  eyeMat: {fileID: 2100000, guid: 466cff86e04fb6e4396935888cd272c0, type: 2}
+  mouthMat: {fileID: 0}
+  skinMaterialsToSync:
+  - {fileID: -7946138318996563710, guid: 3443a9693cfcd8a4fbd4cbbee065454d, type: 3}
+  - {fileID: 2100000, guid: ba623230fc7ccc6458e87b2724b276e9, type: 2}
+  skinMaterialsSynced: []
+  hairMaterialsToSync:
+  - {fileID: 2100000, guid: 6213693754a8fa44086a75714b6ccef1, type: 2}
+  - {fileID: 2100000, guid: 75cb27828d2a57f4eb55194a38b9f7c0, type: 2}
+  - {fileID: 2100000, guid: 942b3975c5468114084f492988202ab6, type: 2}
+  hairMaterialsSynced: []
+  bodyMatList: []
+  headMatList: []
+  hairMatList: []
+  eyeMatList: []
+  mouthMatList: []
+  skinColors: []
+  hairColors: []
+  eyeColors: []
+  stubbleColors: []
+  bodyArtColors: []
+  scarColors: []
+  enableInstancing: 0
+  bodyShader: {fileID: 0}
+  headShader: {fileID: 0}
+  hairShader: {fileID: 0}
+  eyeShader: {fileID: 0}
+  mouthShader: {fileID: 0}
+  directSetHairColor: 1
+  directSetEyeColor: 1
+  directSetSkinColor: 1
+  colorParamName: _Color_Skin
+  useBeardColorForColor2: 0
+  enableMultipleCharacterColors: 1
+  completelyDisableInstancedMaterials: 0
+  atavismMobAppearance: {fileID: 0}
+  allowDifferentHairColors: 0
+  internalHairModels: 1
+  internalBeardModels: 1
+  internalEyebrowModels: 1
+  internalMouthModels: 0
+  internalEarModels: 0
+  internalEyeModels: 0
+  internalTuskModels: 0
+  headSlot: Head
+  torsoSlot: Chest
+  upperarmSlot: Shoulder
+  lowerarmSlot: Lower Arm
+  hipSlot: Weist
+  upperlegSlot: Legs
+  lowerlegSlot: Lower Legs
+  handsSlot: Hands
+  feetSlot: Lower Legs
+  parentSlot: Head
+  rootSlot: Root
+  beardSlot: Beard
+  eyebrowSlot: Eyebrow
+  earSlot: Ear
+  eyeSlot: Eye
+  mouthSlot: Mouth
+  headCoveringSlot: Helmet
+  slots: []
+  headModels: []
+  torsoModels: []
+  upperArmModels: []
+  lowerArmModels: []
+  handModels: []
+  hipModels: []
+  lowerLegModels: []
+  feetModels: []
+  blendshapePresetObjects: []
+  infinityPBRIntegration: {fileID: 0}
+  enableSavingInfinityPBRBlendshapes: 0
+  helmetModels: []
+  hairModels: []
+  faceModels: []
+  beardModels: []
+  eyebrowModels: []
+  earModels: []
+  tuskModels: []
+  mouthModels: []
+  eyeModels: []
+  replacementItems: []
+  faceTexPropertyName: FaceModel
+  hairPropertyName: HairModel
+  beardPropertyName: BeardModel
+  eyebrowPropertyName: EyebrowModel
+  headPropertyName: HeadModel
+  handsPropertyName: HandsModel
+  lowerArmsPropertyName: LowerArmsModel
+  upperArmsPropertyName: UpperArmsModel
+  torsoPropertyName: TorsoModel
+  hipsPropertyName: HipsModel
+  lowerLegsPropertyName: LowerLegs
+  feetPropertyName: FeetModel
+  mouthPropertyName: MouthModel
+  eyesPropertyName: EyeModel
+  tuskPropertyName: TusksModel
+  earsPropertyName: EarModel
+  EyeMaterialPropertyName: EyeMaterial
+  HairMaterialPropertyName: HairMaterial
+  SkinMaterialPropertyName: SkinMaterial
+  MouthMaterialPropertyName: MouthMaterial
+  bodyColorPropertyName: BodyColor
+  scarColorPropertyName: ScarColor
+  mouthColorPropertyName: MouthColor
+  hairColorPropertyName: HairColor
+  stubbleColorPropertyName: StubbleColor
+  beardColorPropertyName: BeardColor
+  eyeBrowColorPropertyName: EyeBrowColor
+  bodyArtColorPropertyName: BodyArtColor
+  eyeColorPropertyName: EyeColor
+  helmetColorPropertyName: HelmetColor
+  torsoColorPropertyName: TorsoColor
+  upperArmsColorPropertyName: UpperArmsColor
+  lowerArmsColorPropertyName: LowerArmsColor
+  hipsColorPropertyName: HipsColor
+  lowerLegsColorPropertyName: LowerLegsColor
+  handsColorPropertyName: HandsColor
+  feetColorPropertyName: FeetColor
+  faithPropertyName: FaithValue
+  infinityBlendShapes: BlendshapesValue
+  blendshapePresetValue: BlendshapePresetValue
+  hairDirectory: _Customizer_Male_Hair
+  FhairDirectory: _Customizer_Female_Hair
+  beardDirectory: _Customizer_Male_Beards
+  fbeardDirectory: _Customizer_Female_Beards
+  eyebrowDirectory: _Customizer_Male_Eyebrows
+  feyebrowDirectory: _Customizer_Female_Eyebrows
+  defaultHeadName: []
+  defaultFaceName: []
+  defaultTorsoName: []
+  defaultUpperArmName: []
+  defaultLowerArmName: []
+  defaultHandName: []
+  defaultHipsName: []
+  defaultLowerLegName:
+  - Chr_LegRight_Male_00
+  defaultFeetName: []
+  defaultMouthColorName: 
+  defaultEyeColorName: 
+  defaultEarName: 
+  defaultTuskName: 
+  defaultBeardName: 
+  defaultHairName: 
+  defaultCapeName: []
+  defaultFemaleHeadName: []
+  defaultFemaleFaceName: []
+  defaultFemaleTorsoName: []
+  defaultFemaleUpperArmName: []
+  defaultFemaleLowerArmName: []
+  defaultFemaleHandName: []
+  defaultFemaleHipsName: []
+  defaultFemaleLowerLegName: []
+  defaultFemaleFeetName: []
+  defaultFemaleMouthName: 
+  defaultFemaleEyeName: 
+  defaultFemaleEarName: 
+  defaultFemaleTuskName: 
+  defaultFemaleBeardName: 
+  defaultFemaleHairName: 
+  defaultFemaleCapeName: []
+  defaultFaithName: 
+  defaultSkinColor:
+    serializedVersion: 2
+    rgba: 4289645823
+  defaultHairColor:
+    serializedVersion: 2
+    rgba: 4281155919
+  defaultScarColor:
+    serializedVersion: 2
+    rgba: 4288131053
+  defaultStubbleColor:
+    serializedVersion: 2
+    rgba: 4294683661
+  defaultBodyArtColor:
+    serializedVersion: 2
+    rgba: 4294683661
+  defaultEyeColor:
+    serializedVersion: 2
+    rgba: 4290876474
+  defaultMouthColor:
+    serializedVersion: 2
+    rgba: 4289645823
+  defaultPrimaryColor:
+    serializedVersion: 2
+    rgba: 4288572222
+  defaultSecondaryColor:
+    serializedVersion: 2
+    rgba: 4283213009
+  defaultTertiaryColor:
+    serializedVersion: 2
+    rgba: 4282864735
+  defaultLeatherPrimaryColor:
+    serializedVersion: 2
+    rgba: 4280956232
+  defaultLeatherTertiaryColor:
+    serializedVersion: 2
+    rgba: 4282864735
+  defaultMetalPrimaryColor:
+    serializedVersion: 2
+    rgba: 4288715928
+  defaultLeatherSecondaryColor:
+    serializedVersion: 2
+    rgba: 4282864735
+  defaultMetalDarkColor:
+    serializedVersion: 2
+    rgba: 4281807405
+  defaultMetalSecondaryColor:
+    serializedVersion: 2
+    rgba: 4290876451

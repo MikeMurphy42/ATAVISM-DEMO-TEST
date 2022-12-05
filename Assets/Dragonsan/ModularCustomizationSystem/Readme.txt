@@ -1,0 +1,2 @@
+Version ModularCustomizationSystem-beta-(X.6)_0_8_3_4 Update Notes:Make a correction to the material selector so that it does not generate an instance of the material for child objects. 
+Version ModularCustomizationSystem-beta-(X.6)_0_8_3_5 Update Notes:Found and identified an  issue that was preventing the hair items from syncing properly on the character. This should resolve the issue and allow all hair items to sync properly on the character. 

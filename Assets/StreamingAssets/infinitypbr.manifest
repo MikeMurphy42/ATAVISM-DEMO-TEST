@@ -1,0 +1,72 @@
+ManifestFileVersion: 0
+CRC: 1906703928
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fb2dcf59c85d9ceb49fce94ce9510125
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6aed338dc28037de587b89495abcfcc5
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 609f49429392c476bb71685431efda79, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8017c5e3244b648a69493d032d35f3a7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d7f428b85243123438bc6d0bf4880a93, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c2d68084b839a4753a4cc761214d8132, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 241
+  Script: {instanceID: 0}
+- Class: 243
+  Script: {instanceID: 0}
+- Class: 245
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: SFB_AudioManager/SFB_AudioClips
+Assets:
+- Assets/Dragonsan/MobsAssets/BomberBug07.prefab
+- Assets/Dragonsan/MobsAssets/BomberBug08.prefab
+- Assets/Dragonsan/MobsAssets/BomberBug02.prefab
+- Assets/Dragonsan/MobsAssets/BomberBug09.prefab
+- Assets/Dragonsan/MobsAssets/BomberBug03.prefab
+- Assets/Dragonsan/MobsAssets/BomberBug01.prefab
+- Assets/Dragonsan/MobsAssets/BomberBug04.prefab
+- Assets/Dragonsan/MobsAssets/BomberBug05.prefab
+- Assets/Dragonsan/MobsAssets/BomberBug06.prefab
+- Assets/Dragonsan/MobsAssets/BomberBug.controller
+Dependencies: []
