@@ -2,15 +2,23 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: mat_boat_scaffold_01_snow
   m_Shader: {fileID: 4800000, guid: 640b54fae8b8970468a91c4bf1c7f474, type: 3}
-  m_ShaderKeywords: _DETAIL_MULX2 _EMISSION _LIGHTMAPPING_REALTIME _LIGHTMAPPING_STATIC_LIGHTMAPS
-    _NORMALMAP _USEDYNAMICSNOWTSTATICMASKF_ON _USESNOW_ON _UVSEC_UV1
+  m_ValidKeywords:
+  - _USEDYNAMICSNOWTSTATICMASKF_ON
+  - _USESNOW_ON
+  m_InvalidKeywords:
+  - _DETAIL_MULX2
+  - _EMISSION
+  - _LIGHTMAPPING_REALTIME
+  - _LIGHTMAPPING_STATIC_LIGHTMAPS
+  - _NORMALMAP
+  - _UVSEC_UV1
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -108,6 +116,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _AlphaTestRef: 0.5
     - _AmbientOcclusionPower: 1
@@ -138,7 +147,7 @@ Material:
     - _SnowSmoothnessPower: 1
     - _SnowSpecularPower: 1
     - _SnowTiling: 15
-    - _Snow_Amount: 1.84
+    - _Snow_Amount: 0
     - _Snow_AmountGrowSpeed: 2
     - _Snow_Min_Height: -1000
     - _Snow_Min_Height_Blending: 1
@@ -159,3 +168,4 @@ Material:
     - _SnowAlbedoColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _SpecularColor: {r: 0.23529412, g: 0.23529412, b: 0.23529412, a: 1}
+  m_BuildTextureStacks: []

@@ -2,14 +2,15 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Terrain_0_0-20180122-123716_2104044
   m_Shader: {fileID: 4800000, guid: 5928845464a53fc4f97518f3cae3ecad, type: 3}
-  m_ShaderKeywords: 
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -44,13 +45,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture_Splat_1:
-        m_Texture: {fileID: 28096684945423228, guid: 7b032934d0dc04e4b83b27a07c5270ad,
-          type: 2}
+        m_Texture: {fileID: 28096684945423228, guid: 7b032934d0dc04e4b83b27a07c5270ad, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture_Splat_2:
-        m_Texture: {fileID: 28277746097085344, guid: 7b032934d0dc04e4b83b27a07c5270ad,
-          type: 2}
+        m_Texture: {fileID: 28277746097085344, guid: 7b032934d0dc04e4b83b27a07c5270ad, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture_Splat_3:
@@ -65,6 +64,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _Ambient_Occlusion_Power: 0
     - _Geological_Map_Close_Power: 0.18
@@ -89,7 +89,7 @@ Material:
     - _Perlin_Normal_Tiling_Close: 60
     - _Perlin_Normal_Tiling_Far: 300
     - _Snow_Ambient_Occlusion_Power: 1
-    - _Snow_Amount: 1.84
+    - _Snow_Amount: 0
     - _Snow_Blend_Normal: 0.894
     - _Snow_Height_Contrast: 1
     - _Snow_Heightblend_Close: 0.8
@@ -378,3 +378,4 @@ Material:
     - _Texture_8_Color: {r: 1, g: 1, b: 1, a: 0}
     - _Texture_9_Color: {r: 1, g: 1, b: 1, a: 0}
     - _Texture_Snow_Average: {r: 0.5775805, g: 0.56471163, b: 0.6104956, a: 0.17254902}
+  m_BuildTextureStacks: []

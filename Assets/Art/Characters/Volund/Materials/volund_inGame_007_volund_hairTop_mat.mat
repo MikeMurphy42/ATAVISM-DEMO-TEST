@@ -2,15 +2,22 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: volund_inGame_007_volund_hairTop_mat
   m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _ALPHATEST_ON _LIGHTMAPPING_DYNAMIC_LIGHTMAPS _NORMALMAP _SPECGLOSSMAP
-    _UVSEC_UV1
-  m_LightmapFlags: 5
+  m_ValidKeywords:
+  - _ALPHATEST_ON
+  - _EMISSION
+  - _NORMALMAP
+  - _SPECGLOSSMAP
+  m_InvalidKeywords:
+  - _LIGHTMAPPING_DYNAMIC_LIGHTMAPS
+  - _UVSEC_UV1
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2450
@@ -64,6 +71,7 @@ Material:
         m_Texture: {fileID: 2800000, guid: 170568b6df1f0724a950cc43611e4c7d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _AlphaTestRef: 0.652
     - _BumpScale: 5
@@ -105,3 +113,4 @@ Material:
     - _KKSpecularMixIndirectFactors: {r: 0.75, g: 0.6, b: 0.15, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _SpecularColor: {r: 0.066176474, g: 0.066176474, b: 0.066176474, a: 1}
+  m_BuildTextureStacks: []
