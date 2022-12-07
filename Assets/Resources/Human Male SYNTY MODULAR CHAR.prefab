@@ -65886,7 +65886,7 @@ GameObject:
   - component: {fileID: 7103008264120795634}
   - component: {fileID: 2113002044519331441}
   m_Layer: 0
-  m_Name: ModularCharacters
+  m_Name: Human Male SYNTY MODULAR CHAR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66149,10 +66149,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3277f9e3a33ce6b47830763a925ce259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentTab: Parts
-  toolbarTop: 1
+  currentTab: Materials
+  toolbarTop: 99
   toolbarMiddle: 99
-  toolbarBottom: 99
+  toolbarBottom: 1
   toolbarSubBottom: 99
   gender: 0
   replacementObject: {fileID: 0}
@@ -66166,7 +66166,7 @@ MonoBehaviour:
   handsReplacementObject: {fileID: 0}
   modularModelSwapping: 0
   bodyMat: {fileID: 2100000, guid: 67ee2fbf2509b0741ba5476891d8f7da, type: 2}
-  headMat: {fileID: 2100000, guid: 67ee2fbf2509b0741ba5476891d8f7da, type: 2}
+  headMat: {fileID: 0}
   hairMat: {fileID: 0}
   eyeMat: {fileID: 0}
   mouthMat: {fileID: 0}
@@ -66176,7 +66176,8 @@ MonoBehaviour:
   hairMaterialsSynced: []
   bodyMatList: []
   headMatList: []
-  hairMatList: []
+  hairMatList:
+  - {fileID: 2100000, guid: 6b33cb3a91bca204191106a696c7c963, type: 2}
   eyeMatList: []
   mouthMatList: []
   skinColors:
@@ -66211,37 +66212,37 @@ MonoBehaviour:
   mouthShader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
   directSetHairColor: 1
   directSetEyeColor: 1
-  directSetSkinColor: 1
+  directSetSkinColor: 0
   colorParamName: _Color_Skin
   useBeardColorForColor2: 0
-  enableMultipleCharacterColors: 0
-  completelyDisableInstancedMaterials: 1
+  enableMultipleCharacterColors: 1
+  completelyDisableInstancedMaterials: 0
   atavismMobAppearance: {fileID: 0}
   allowDifferentHairColors: 0
   internalHairModels: 1
   internalBeardModels: 1
-  internalEyebrowModels: 0
-  internalMouthModels: 0
-  internalEarModels: 0
-  internalEyeModels: 0
+  internalEyebrowModels: 1
+  internalMouthModels: 1
+  internalEarModels: 1
+  internalEyeModels: 1
   internalTuskModels: 0
-  headSlot: Main Hand
-  torsoSlot: Main Hand
-  upperarmSlot: Main Hand
-  lowerarmSlot: Main Hand
-  hipSlot: Main Hand
-  upperlegSlot: Main Hand
-  lowerlegSlot: Main Hand
-  handsSlot: Main Hand
-  feetSlot: Main Hand
-  parentSlot: Main Hand
-  rootSlot: Main Hand
-  beardSlot: Main Hand
-  eyebrowSlot: Main Hand
-  earSlot: Main Hand
-  eyeSlot: Main Hand
-  mouthSlot: Main Hand
-  headCoveringSlot: Main Hand
+  headSlot: Head
+  torsoSlot: Chest
+  upperarmSlot: Shoulder
+  lowerarmSlot: Lower Arm Armor
+  hipSlot: Weist
+  upperlegSlot: Legs
+  lowerlegSlot: Legs
+  handsSlot: Hands
+  feetSlot: Feet
+  parentSlot: Head
+  rootSlot: Root
+  beardSlot: Beard
+  eyebrowSlot: Eyebrow
+  earSlot: Ear
+  eyeSlot: Ear
+  mouthSlot: Mouth
+  headCoveringSlot: Helmet
   slots: []
   headModels:
   - {fileID: 6165957292461648605}

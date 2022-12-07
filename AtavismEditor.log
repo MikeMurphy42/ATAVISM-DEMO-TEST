@@ -7,3 +7,5 @@ DATE: 12/7/2022 12:13:24 AM : SELECT name FROM item_slots where isactive = 1
 DATE: 12/7/2022 12:29:43 AM : SELECT name FROM item_slots where isactive = 1
 DATE: 12/7/2022 1:02:38 AM : SELECT name FROM item_slots where isactive = 1
 DATE: 12/7/2022 1:10:07 AM : SELECT name FROM item_slots where isactive = 1
+DATE: 12/7/2022 1:13:49 AM : SELECT name FROM item_slots where isactive = 1
+DATE: 12/7/2022 1:18:14 AM : SELECT name FROM item_slots where isactive = 1
